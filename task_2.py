@@ -13,4 +13,5 @@ for i in range(2, n):
                 new_cost = cost[j][m] + cost[m + 1][r] + dims[j - 1] * dims[m] * dims[r]
                 cost[j][r] = min(cost[j][r], new_cost)
 
+
 print(cost[1][n - 1])

@@ -62,8 +62,8 @@ while (k < count) and (len(v) > 0):
     deleting(indexes, summ_numb)
     k+=1
 
+
 print(summ)
-#5000+2500+1000+1500+1250
 
 
 

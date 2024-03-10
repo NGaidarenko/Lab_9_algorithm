@@ -14,5 +14,6 @@ while c != len(N)-1:
         cnt = 1
     c+=1
 
+
 print(N)
 print(max_cnt)
